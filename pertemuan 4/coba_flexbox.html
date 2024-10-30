@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Flexbox</title>
+	<style>
+		.container{
+			width: 800px; /*panjang*/
+			border : 5px solid black;
+			margin: 30px auto;
+		    display: flex;
+
+		}
+
+		.container div{
+			background-color: red;
+			margin: 2px;
+			padding: 10px;
+
+		}
+
+		.container .satu{ 
+			flex: 1;
+		}
+
+		.container .dua{ 
+			flex: 3;
+		}
+
+		.container .tiga{
+			flex: 1;
+		}
+
+	
+
+	</style>
+</head>
+<body>
+		<div class="container">
+			<div class="satu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, aperiam dignissimos in quisquam culpa tempora, ipsa, quas molestiae animi nam natus sint beatae ipsum quis vel veniam maiores earum dolores.</div>
+			<div class="dua">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae illum neque et ea blanditiis? Autem possimus laudantium incidunt. Corporis aspernatur consequuntur dolores at quisquam aliquam suscipit amet ducimus aperiam nihil!</div>
+		    <div class="tiga">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo deserunt esse eveniet sunt earum distinctio nam cumque libero ducimus eius officiis in voluptates quisquam, reprehenderit sint ea, voluptatum commodi iste?</div>		   
+		</div>
+</body>
+</html>
